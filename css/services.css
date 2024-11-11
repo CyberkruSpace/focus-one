@@ -25,7 +25,7 @@ nav h5{
 	display: flex;
 }
 nav a:hover{
-	color: #d07d5a;
+	color: #3d88ff;
 }
 nav li:first-child{
 	margin-right: auto;
@@ -143,14 +143,6 @@ body {
 	margin: 0;
 	display: grid;
 	font-size: 14px;
-}
-header p {
-	padding: 50px;
-	text-align: center;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 65px;
-	font-weight: 700;
 }
 .footer {
 	display: flex;
