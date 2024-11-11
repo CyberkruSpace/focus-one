@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Focus1</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/focus1-icon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+   <!--Nav-Bar-->
+   <nav>
+      <ul class="side-bar" id="nav-links">
+        <li><a href="" onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#333"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li class="hideOnMobile"><a href="index.html">Home</a></li>
+        <li class="hideOnMobile"><a href="index.html#about">About</a></li>
+        <li class="hideOnMobile"><a href="services.html">Services</a></li>
+        <li class="hideOnMobile"><a href="index.html#gallery">Gallery</a></li>
+        <li class="hideOnMobile"><a href="#contact">Contact Us</a></li>
+    </ul>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="logo"><img src="images/focus1-logo.png" alt="" style="width: 100px;" ></a></li>
+        <li class="hideOnMobile"><a href="index.html">Home</a></li>
+        <li class="hideOnMobile"><a href="index.html#about">About</a></li>
+        <li class="hideOnMobile"><a href="services.html">Services</a></li>
+        <li class="hideOnMobile"><a href="index.html#gallery">Gallery</a></li>
+        <li class="hideOnMobile"><a href="#contact">Contact Us</a></li>
+        <li class="menuBtn" onclick="showSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#333"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+    </ul>
+    </nav>
+   <!--Nav-Bar-End-->
+      <!-- banner -->
+      <section class="banner_main">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="text-bg">
+                     <div class="padding_lert">
+                        <h1>WELCOME TO Focus-<span class="landing-name">One</span></h1>
+                        <p>Experience the perfect blend of comfort, convenience, and community at our student accommodation.</p>
+                        <a href="#">Read More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end banner -->
+      <!-- form_lebal -->
+      <section>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <form class="form_book">
+                     <div class="row">
+                        <div class="col-md-3">
+                           <label class="date">ARRIVAL DATE</label>
+                           <input class="book_n"  type="date" >
+                        </div>
+                        <div class="col-md-3">
+                           <label class="date">DEPARTURE DATE</label>
+                           <input class="book_n"  type="date" >
+                        </div>
+                        <div class="col-md-3">
+                           <label class="date">Capacity</label>
+                           <input class="book_n" placeholder="2" type="type" name="2">
+                        </div>
+                        <div class="col-md-3">
+                           <button class="book_btn">Book Now</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end form_lebal -->
+      <!-- choose  section -->
+      <div class="choose">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="choose_box">
+                     <div class="titlepage">
+                        <h2><span class="text_norlam">Choose An Accommodation</span> <br>That Best Suits Your Needs.</h2>
+                     </div>
+                     <p>Offering a perfect blend of comfort, convenience, and vibrant community life, ensuring you have everything you need to thrive academically and socially during your stay.</p>
+                     <a class="read_more" href="#">See More</a>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="img_box">
+                           <figure><img src="images/gal-5.jpg" alt="#"/></figure>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="img_box">
+                           <figure><img src="images/img2.jpg" alt="#"/></figure>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="img_box">
+                           <figure><img src="images/img5.jpg" alt="#"/></figure>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end choose  section -->
+      <!-- our  section -->
+      <div class="our">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-6">
+                  <div class="img_box">
+                     <figure><img src="images/img4.jpg" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="our_box">
+                     <div class="titlepage">
+                        <h2><span class="text_norlam">We also offer </span> <br>Single Rooms</h2>
+                     </div>
+                     <p>Providing a private and serene environment where you can focus on your studies and enjoy your personal space, while still being part of a vibrant community.</p>
+                     <a class="read_more" href="#">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end our  section -->
+      <!-- about -->
+      <div id="about"  class="about">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-md-6">
+                  <div class="about_text">
+                     <div class="titlepage">
+                        <h2>About Focus-One</h2>
+                        <p>FOCUS 1Student Accommodation is a leading provider of high-quality student accommodation solutions. We believe that a comfortable and conducive living environment plays a crucial role in a student’s overall development and academic success. With this in mind, we offer a wide range of meticulously designed and fully furnished properties that cater specifically to the unique needs and preferences of students.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="about_img">
+                     <figure><img src="images/about_img.jpg" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end about -->
+      <!-- Gallery -->
+      <div class="gal-container my-5" id="gallery">
+         <h1 class="text-center mb-5">Gallery</h1>
+         <div class="gallery-grid">
+             <div class="gallery-item">
+                <img src="images/gal-6.jpg" alt="Gallery Image 1">
+             </div>
+             <div class="gallery-item">
+                <img src="images/gal-2.jpeg" alt="Gallery Image 1">
+             </div>
+             <div class="gallery-item">
+                <img src="images/gal-3.jpg" alt="Gallery Image 1">
+             </div>
+             <div class="gallery-item">
+                <img src="images/gal-4.jpg" alt="Gallery Image 1">
+             </div>
+             <div class="gallery-item">
+                <img src="images/gal-5.jpg" alt="Gallery Image 1">
+             </div>
+             <div class="gallery-item">
+                <img src="images/gal-9.jpg" alt="Gallery Image 1">
+             </div>
+             <div class="gallery-item">
+                <img src="images/img2.jpg" alt="Gallery Image 1">
+             </div>
+             <div class="gallery-item">
+                <img src="images/img5.jpg" alt="Gallery Image 1">
+             </div>
+             </div>
+         </div>
+         <!-- End Gallery -->
+         <!-- Footer -->
+         <footer class="footer" id="contact">
+            <div class="side-one">
+               <h5><img alt="" src="images/focus1-logo.png" style="width: 100px;"></h5>
+               <p>FOCUS 1Student Accommodation is a leading provider of high-quality student accommodation solutions.</p>           
+            </div>
+            <ul class="side-two">
+               <li>
+                  <h2>Social</h2>
+                  <ul class="box">
+                     <li><a href="" class="social-btn"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                     <li><a href="" class="social-btn"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                     <li><a href="" class="social-btn"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a></li>
+                  </ul>
+               </li>
+               <li class="features">
+                  <h2>Address</h2>
+                  <ul class="box h-box">
+                     <li><a href="#"><i class="fa-solid fa-location-dot"></i> 252 Rahima Moosa St</a></li>
+                     <li><a href="#"><i class="fa-solid fa-location-dot"></i> Newtown, Johhanesburg, 2001</a></li>
+                     <li><a href="#"><i class="fa-solid fa-phone"></i> +27 87 138 0021</a></li>
+                     <li><a href="#"><i class="fa-solid fa-envelope"></i> info1@focus1.co.za</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <h2>Get in touch with us.</h2>
+                  <ul class="box">
+                     <form action="">
+                        <input type="text" placeholder="Full Names" class="f-input">
+                        <input type="text" placeholder="Subject" class="f-input">
+                        <input type="text" placeholder="Email" class="f-input">
+                        <textarea name="message" id="message"></textarea>
+                        <button type="submit">Submit</button>
+                     </form>
+                  </ul>
+               </li>
+            </ul>
+            <div class="copyright">
+               <p>All rights reserved by <a href="info1.co.za">Focus-<span class="name">One</span></a>     Designed by <a href="cyberkru.co.za">Cyberkru</a></p>
+            </div>
+         </footer>     
+     <!-- End Footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+   </body>
+</html>
+
